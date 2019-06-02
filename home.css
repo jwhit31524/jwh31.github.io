@@ -86,3 +86,11 @@ div#content1 {
 [type='img'] {
 	margin-top: 6em;
 }
+div#Vert-nav ul li#item1 {
+	background-color: #3399ff;
+	padding: 0 1em .3em 1em;
+	margin: 0em 0 .25em 0;
+	text-align: left;
+	color: white;
+
+}
