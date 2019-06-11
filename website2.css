@@ -1,4 +1,7 @@
-
+body {
+	font-size: 18px;
+	background-color: #ffffb3;
+}
 /*div#header {
 	width: 100%
 	position: fixed;
@@ -9,8 +12,8 @@
 }
 */
 div#header {
-	width: 100%
-	position: fixed;
+	width: 100%;
+	height: 90px;
 	top: 0;
 	left: 0;
 	background-color: #3399ff;
@@ -20,18 +23,18 @@ div#header h2 {
 	font-family: Verdana, Geneva, sans-serif;
 	font-weight: 900;
 	color: white;
-	font-size: 4em
+	font-size: 2em;
 	margin-left: 20%;
-	padding: 0;
-	left:50px;
+	padding: 30px 0 0;
+	left: 50px;
 }
 div#header img {
 	float: left;
-	margin: .9em .6em 0 .75em;
 }
 div#Main-nav {
 	width: 100%;
 	margin-left: 14em;
+	margin-top: 2em;
 }
 div#Main-nav ul {
 	list-style-type: none;
@@ -55,12 +58,12 @@ div#Main-nav ul li {
 	float: left;
 	margin-left: .5em;
 }
-div#Vert-nav ul {
+.vert-nav ul {
 	list-style-type: none;
 	padding-left: 0;
 	clear: both;
 }
-div#Vert-nav ul li a {
+.vert-nav ul li a {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 1.1em;
 	font-weight: 900;
@@ -69,12 +72,12 @@ div#Vert-nav ul li a {
 	display: block;
 	padding: .35em;
 }
-div#Vert-nav {
+.vert-nav {
 	clear: both;
 	display: inline-block;
 	margin-top: 5em;
 }
-div#Vert-nav ul li {
+.vert-nav ul li {
 	background-color: #3399ff;
 	padding: 0 1em .3em 1em;
 	margin: 0em 0 .25em 0;
@@ -88,7 +91,9 @@ div#content1 {
 	text-align: center;
 	overflow: hidden;
 	font-family: Arial, Helvetica, sans-serif;
+	font-size: 22px;
 	
+
 }
 
 }
@@ -98,11 +103,31 @@ div#content1 {
 [type='img'] {
 	margin-top: 6em;
 }
-div#Vert-nav li#item1 {
+.vert-nav li#item1 {
 	background-color: #3399ff;
 	padding: 0 1em .3em 1em;
 	margin: 0em 0 .25em 0;
 	text-align: left;
 	color: white;
 
+}
+
+.vert-nav .questions-header {
+	color: white;
+	background-color: darkblue;
+	padding: .6em 1em;
+	font-size: 1.25em;
+}
+.footer {
+	width: 100%;
+	height: 90px;
+	bottom: 0;
+	left: 0;
+	background-color: #3399ff;
+	position: fixed;
+
+}
+.footer p {
+	text-align: center;
+	padding: 20px;
 }
